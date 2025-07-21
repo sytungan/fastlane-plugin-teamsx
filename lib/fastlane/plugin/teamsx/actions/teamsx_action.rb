@@ -27,7 +27,7 @@ module Fastlane
         # Build facts
         facts = (params[:facts] || []).map do |fact|
           {
-            "title" => fact["title"],
+            "title" => fact["name"],
             "value" => fact["value"]
           }
         end
