@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'sytungan@gmail.com'
 
   spec.summary       = 'Deliver message to MSTeams'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-teamsx"
+  spec.homepage      = "https://github.com/sytungan/fastlane-plugin-teamsx"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
