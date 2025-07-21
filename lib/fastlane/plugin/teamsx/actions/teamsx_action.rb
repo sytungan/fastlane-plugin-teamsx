@@ -1,6 +1,6 @@
 module Fastlane
   module Actions
-    class TeamsXAction < Action
+    class TeamsxAction < Action
       def self.run(params)
         require 'net/http'
         require 'uri'

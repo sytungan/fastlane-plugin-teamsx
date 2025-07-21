@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Fastlane::Actions::TeamsXAction do
+describe Fastlane::Actions::TeamsxAction do
   it "sends an Adaptive Card with minimal parameters" do
     # Prepare test params
     params = {
@@ -26,6 +26,6 @@ describe Fastlane::Actions::TeamsXAction do
     allow(Net::HTTP).to receive(:new).and_return(fake_http)
 
     # Run the action
-    Fastlane::Actions::TeamsXAction.run(params)
+    Fastlane::Actions::TeamsxAction.run(params)
   end
 end
